@@ -1,0 +1,90 @@
+/* This is project 1 required for certification */
+body{
+    background-image: linear-gradient(rgba(0,0,150,0.5), rgba(0,0,0,0.5)),url("pankaj-patel-Fi-GJaLRGKc-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    margin:0;
+    color: #f5f6f7;
+    font-family: Tahoma;
+}
+
+#title{
+    font-size: 35px;
+    margin: 1em auto;
+    text-align: center;
+}
+
+#description{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color:rgba(25, 25, 88,0.7);
+    padding:30px;
+    border-radius: 10px;
+}
+
+fieldset{
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #afafe4;
+}
+/* to remove the last fielset border bottom */
+fieldset:last-of-type {
+    border-bottom: none;
+}
+/* to arrange each in column format */
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+/* making the user input wider */
+input[type="text"],
+input[type="email"],
+input[type="number"]
+{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+/* textare and user input styling*/
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+/* styling the submit bottom */
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}

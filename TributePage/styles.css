@@ -1,0 +1,79 @@
+body{
+    font-family: 'Open Sans', Tahoma, Verdana, sans-serif;
+    background-color:rgb(1, 7, 29);
+    color: white;
+    padding: 10px;
+}
+#title{
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 0;
+    padding: 10px 5px 5px;
+}
+#description{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size:70px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header > p {
+    text-align: center;
+    font-style: italic;
+    text-align:center;
+}
+main{
+    background-color:rgb(0, 5, 19);
+    border-radius: 10px;
+    padding: 15px;
+}
+img{
+    display: block;
+    opacity: 0.7;
+}
+#image{
+    max-width: 80%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    border-right: black;
+}
+#img-caption{
+    font-style: italic;
+    text-align: center;
+
+}
+fieldset {
+    border: none;
+}
+
+fieldset a:first-of-type{
+    text-decoration: none;
+    color: purple;
+}
+article p:first-of-type{
+    text-align: justify;
+}
+/* okay */
+article {
+    text-align: center;
+    justify-content: space-around;
+}
+.quote{
+    font-style: italic;
+    text-transform: capitalize;
+}
+.text_end{
+    font-style: italic;
+}
+span a:first-of-type{
+    text-decoration: none;
+    color: purple;
+}
+/* Work done*/
+
