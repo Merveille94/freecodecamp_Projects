@@ -8,10 +8,21 @@
     <title>Javascript Technical Document </title>
 </head>
 <body>
-    <!--Starting now-->
 <!--main page-->
 <main id="main-doc">
-<!--    creating various subsections-->
+
+    <!--Navigation-->
+    <nav id="navbar">
+        <header>JS Documentation</header>
+        <a href="#Introduction">Introduction</a>
+        <a href="#What_you_should_already_know">What you should already know</a>
+        <a href="#Javascript_and_Java">Javascript and Java</a>
+        <a href="#Hello_world">Hello world</a>
+        <a href="#Variables">Variables</a>
+        <a href="#Declaring_variables">Declaring variables</a>
+    </nav>
+
+    <!--creating various subsections-->
     <section class="main-section" id="Introduction">
         <header>Introduction</header>
         <p>
@@ -174,12 +185,12 @@
         <p>
             This behavior changes,
             when using the let declaration introduced
-            in ECMAScript 2015.</p>
+            in ECMAScript 2015.
+        </p>
         <code>
             if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-            not defined
+            not defined.
         </code>
-
     </section>
 </main>
 </body>

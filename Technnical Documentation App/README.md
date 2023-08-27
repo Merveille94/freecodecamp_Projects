@@ -29,26 +29,42 @@ ten p elements total (not each)
 6_The .main-section elements should contain at least five code 
 elements total (not each)
 
-7_The .main-section elements should contain at least five li items total (not each)
+7_The .main-section elements should contain at least five
+li items total (not each)
 
 8_You can see a nav element with a corresponding id="navbar"
 
-9_The navbar element should contain one header element which contains text that describes the topic of the technical documentation
+9_The navbar element should contain one header element 
+which contains text that describes the topic of the 
+technical documentation.
 
-10_Additionally, the navbar should contain link (a) elements with the class of nav-link. 
-There should be one for every element with the class main-section
+10_Additionally, the navbar should contain link 
+(a) elements with the class of nav-link.
+There should be one for every element with the class 
+main-section
 
-11_The header element in the #navbar must come before any link (a) elements in the navbar
+11_The header element in the 
+#navbar must come before any link 
+(a) elements in the navbar.
 
-12_Each element with the class of nav-link should contain text that corresponds to the header text within each section 
-(e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world")
+12_Each element with the class of nav-link should contain
+text that corresponds to the header text within each section 
+(e.g. if you have a "Hello world" section/header, 
+your navbar should have an element which contains the 
+text "Hello world")
 
-13_When you click on a navbar element, the page should navigate to the corresponding section of the #main-doc element 
-(e.g. If you click on a .nav-link element that contains the text "Hello world", 
-the page navigates to a section element with that id, and contains the corresponding header)
+13_When you click on a navbar element, 
+the page should navigate to the corresponding 
+section of the #main-doc element 
+(e.g. If you click on a .nav-link element 
+that contains the text "Hello world", the page navigates 
+to a section element with that id, and contains 
+the corresponding header)
 
 14_On regular sized devices (laptops, desktops), 
-the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user
+the element with id="navbar" should be shown on 
+the left side of the screen and should always 
+be visible to the user
 
 15_Your technical documentation should use at least one media query
 
