@@ -17,7 +17,7 @@ There should be a minimum of five
 should be a header element, which contains 
 text that describes the topic of that section.
 
-4_Each section element with the class of main-section dshould also 
+4_Each section element with the class of main-section should also 
 have an id that corresponds with the text of each header contained 
 within it. Any spaces should be replaced with underscores 
 (e.g. The section that contains the header "JavaScript and Java" 
@@ -66,9 +66,12 @@ the element with id="navbar" should be shown on
 the left side of the screen and should always 
 be visible to the user
 
-15_Your technical documentation should use at least one media query
+15_Your technical documentation should use at least 
+one media query
 
 Fulfill the user stories and pass all the tests below to complete this project. 
 Give it your own personal style. Happy Coding!
 
-Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML and apply your CSS -->
+Note: Be sure to add 
+<link rel="stylesheet" href="styles.css"> 
+in your HTML and apply your CSS -->

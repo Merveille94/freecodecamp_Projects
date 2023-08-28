@@ -5,17 +5,22 @@ html{
 }
 body{
     margin:0;
+    text-align: justify;
 }
 header{
     font-weight:bold;
     font-size: 25px;
 }
+#home{
+    text-decoration: none;
+    color: black;
+}
 #navbar{
-    width: 25%;
+    width: 20%;
     border-right: solid #3b3b4f;
 }
 #navbar header{
-    padding-left: 16px;
+    padding: 16px 0 16px 16px;
 }
 #navbar, #navbar ul {
     margin: 0;
@@ -31,8 +36,22 @@ header{
     text-decoration: none;
     color: black;
     padding: 10px 16px;
+    border-top:thin solid #dfdfe2;
 }
-section{
-    margin-left: 25%;
-    padding:1px 16px;
+.main-section{
+    margin-left: 20%;
+    padding:50px;
+}
+
+.main-section li{
+    margin-top: 5px;
+}
+.main-section p{
+    padding: 3px 0 0 10px;
+}
+code{
+    background-color: lightgrey;
+    padding: 16px 40px;
+    border-radius: 5px;
+    margin: 15px 0 15px 0;
 }
