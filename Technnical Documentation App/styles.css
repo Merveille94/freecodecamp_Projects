@@ -1,2 +1,38 @@
 /* Starting Today*/
-
+html{
+    background-color: #dfdfe2;
+    font-family: 'Open Sans', Tahoma, Verdana, sans-serif;
+}
+body{
+    margin:0;
+}
+header{
+    font-weight:bold;
+    font-size: 25px;
+}
+#navbar{
+    width: 25%;
+    border-right: solid #3b3b4f;
+}
+#navbar header{
+    padding-left: 16px;
+}
+#navbar, #navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #d0d0d5;
+    height:100%;
+    position: fixed;
+    overflow: auto;
+}
+#navbar li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+}
+section{
+    margin-left: 25%;
+    padding:1px 16px;
+}
