@@ -38,20 +38,31 @@ header{
     padding: 10px 16px;
     border-top:thin solid #dfdfe2;
 }
-.main-section{
+.sections{
     margin-left: 20%;
-    padding:50px;
+    padding:30px;
+}
+.main-section header{
+    padding: 10px;
 }
 
 .main-section li{
-    margin-top: 5px;
+    padding-top: 15px;
 }
 .main-section p{
-    padding: 3px 0 0 10px;
+    padding: 10px 0 0 20px;
 }
-code{
+.main-section code{
+    margin-left: 20px;
+}
+.code {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    width: 98%;
     background-color: lightgrey;
-    padding: 16px 40px;
+    padding: 15px 0;
     border-radius: 5px;
-    margin: 15px 0 15px 0;
+    margin: 15px 0 15px 20px;
 }
+
