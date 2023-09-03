@@ -86,15 +86,15 @@
 
     <section class="main-section" id="What_you_should_already_know">
         <header>What you should already know</header>
-<article>
-    <p>This guide assumes you have the following basic background:</p>
-    <ul>
-        <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
-        <li>Good working knowledge of HyperText Markup Language (HTML).</li>
-        <li>Some programming experience. If you are new to programming,
-            try one of the tutorials linked on the main page about JavaScript.</li>
-    </ul>
-</article>
+        <article>
+            <p>This guide assumes you have the following basic background:</p>
+            <ul>
+                <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+                <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+                <li>Some programming experience. If you are new to programming,
+                    try one of the tutorials linked on the main page about JavaScript.</li>
+           </ul>
+    </article>
     </section>
 
     <section class="main-section" id="JavaScript_and_Java">
@@ -136,14 +136,9 @@
                 open the Scratchpad and write
                 your first "Hello world" JavaScript code:
             </p>
-            <div class="code">
                 <code>
-                    function greetMe(yourName) { alert("Hello " + yourName); }
+                    function greetMe(yourName) { alert("Hello " + yourName); } greetMe("World");
                 </code>
-                <code>
-                    greetMe("World");
-                </code>
-            </div>
             <p>
                 Select the code in the pad and hit Ctrl+R to watch it
                 unfold in your browser!
@@ -183,17 +178,17 @@
             <p>
                 With the keyword var. For example,
             </p>
-            <div class="code"><code>var x = 42.</code></div>
+            <code>var x = 42.</code>
             <p>This syntax can be used to declare both local and global variables.</p>
             <p>By simply assigning it a value. For example,</p>
-            <div class="code"><code>x = 42.</code></div>
+            <code>x = 42.</code>
             <p>
                 This always declares a global variable.
                 It generates a strict JavaScript warning.
                 You shouldn't use this variant.
             </p>
             <p>With the keyword let. For example,</p>
-            <div class="code"><code>let y = 13.</code></div>
+            <code>let y = 13.</code>
             <p>
                 This syntax can be used to declare a block scope local variable.
                 See Variable scope below.
@@ -230,12 +225,9 @@
                when using the let declaration introduced
                in ECMAScript 2015.
            </p>
-           <div class="code">
                <code>
-                   if (true) { let y = 5; } console.log(y); // ReferenceError: y is
+                   if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined.
                </code>
-               <code>not defined.</code>
-           </div>
        </article>
     </section>
 
@@ -247,7 +239,6 @@
                 pages the global object is window, so you can set and access global
                 variables using the window.variable syntax.
             </p>
-
             <p>
                 Consequently, you can access global variables declared in one window or
                 frame from another window or frame by specifying the window or frame
@@ -257,6 +248,7 @@
             </p>
         </article>
     </section>
+
     <section class="main-section" id="Constants">
         <header>Constants</header>
         <article>
@@ -267,7 +259,7 @@
                 can contain alphabetic, numeric, or underscore characters.
             </p>
 
-            <code>const PI = 3.14;</code>
+           <code>const PI = 3.14;</code>
             <p>
                 A constant cannot change value through assignment or be re-declared while the script is running. It has to be initialized to a value.
             </p>
@@ -280,17 +272,19 @@
                 You cannot declare a constant with the same name as a function or variable in the same scope. For example:
             </p>
 
-            <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
-                CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
-                }</code
-            >
+            <code>
+                // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
+                WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
+                //statements }
+            </code>
+
             However, object attributes are not protected, so the following statement
             is executed without problems.
-            <code
-            >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code
-            >
+
+            <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
         </article>
     </section>
+
     <section class="main-section" id="Data_types">
         <header>Data types</header>
         <article>
