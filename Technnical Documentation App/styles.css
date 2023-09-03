@@ -18,6 +18,18 @@ html, body {
     border-color: #4d4e53;
 }
 
+header{
+    font-size: 1.8em;
+    text-align: left;
+    color:#000000;
+    margin: 10px;
+    font-weight: bold;
+}
+#main-doc header{
+    text-align: left;
+    margin: 0;
+}
+
 #navbar ul{
     padding:0;
     height: 88%;
@@ -39,20 +51,6 @@ html, body {
     color: #4d4e53;
     padding: 10px 30px;
     cursor: pointer;
-}
-
-header{
-    font-size: 1.8em;
-    text-align: left;
-    color:#000000;
-    margin: 10px;
-    font-weight: bold;
-}
-
-#navbar header {
-    display: block;
-    text-align: center;
-    margin: 10px;
 }
 
 #main-doc {
