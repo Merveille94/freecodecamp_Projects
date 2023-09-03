@@ -17,6 +17,12 @@ html, body {
     border-right: solid;
     border-color: #4d4e53;
 }
+#navbar header{
+    /*font-size: 1.6em;*/
+    display:flex;
+    padding: 5px;
+    justify-content: center;
+}
 
 header{
     font-size: 1.8em;
