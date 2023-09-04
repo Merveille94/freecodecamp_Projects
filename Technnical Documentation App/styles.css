@@ -1,8 +1,8 @@
-
+/*design of the main interface page*/
 html, body {
     font-family: 'Open Sans', Arial, sans-serif;
     color: #4d4e53;
-    line-height: 1.5;
+    line-height: 1.5;  /*separation of the line height of the entire page*/
     background-color: #ffffff;
     min-width: 290px;
 }
@@ -17,6 +17,7 @@ html, body {
     border-right: solid;
     border-color: #4d4e53;
 }
+
 #navbar header{
     display:flex;
     padding: 5px;
@@ -30,6 +31,7 @@ header{
     margin: 10px;
     font-weight: bold;
 }
+
 #main-doc header{
     text-align: left;
     margin: 0;
