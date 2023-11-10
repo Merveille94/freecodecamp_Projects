@@ -64,7 +64,7 @@ h2{
  }
 
  #navbar li{
-    /* list-style: none; */
+    list-style: none;
     padding: 0 20px;
     position: relative;
  }
@@ -91,4 +91,8 @@ h2{
     position: absolute;
     bottom: -4px;
     left:20px;
+ }
+
+ #hero{
+   background-image: url("images/freestocks-_3Q3tsJ01nc-unsplash.jpg");
  }
