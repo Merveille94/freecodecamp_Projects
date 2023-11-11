@@ -47,7 +47,7 @@ h2{
     width: 100%;
  }
 
- /* header */
+ /* header of page */
  #header{
     display: flex;
     align-items: center;
@@ -55,6 +55,10 @@ h2{
     padding: 10px 80px;
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.0);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
  }
 
  #navbar{
@@ -93,6 +97,38 @@ h2{
     left:20px;
  }
 
+ /* home page*/
  #hero{
    background-image: url("images/freestocks-_3Q3tsJ01nc-unsplash.jpg");
+   height:90vh;
+   width:100%;
+   background-size: cover;
+   background-position: top 25% right 0;
+   padding: 0 80px;
+   display:flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
  }
+
+ #hero h4{
+   padding-bottom: 15px;
+ }
+
+ #hero h1{
+   color:#088178
+ }
+
+ #hero button{
+   color: rgb(240, 228, 188);
+   font-weight:700;
+   padding: 14px 80px 14px 65px;
+   cursor: pointer;
+   background-color: #ac1c40;
+   border:0;
+   border-radius: 10px;
+   font-size: 15px;
+ }
+
+/* Feature section */
+
