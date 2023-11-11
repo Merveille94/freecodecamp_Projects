@@ -179,11 +179,19 @@ h2{
 #feature .fe-box h6:hover{
    color: rgb(255, 255, 255);
    background-color: #088178;
+   cursor: pointer;
 }
 
 /* the products section */
 #product1{
    text-align: center;
+}
+
+#product1 .pro-container{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+   flex-wrap: wrap;
 }
 
 #product1 .pro{
@@ -196,6 +204,7 @@ h2{
    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
    margin: 15px 0;
    transition: 0.4s ease;
+   position: relative;
 }
 
 #product1 .pro:hover{
@@ -217,9 +226,13 @@ h2{
    font-size: 13px;
 }
 
-#product1 .pro .des .star, span, h5, h4{
+#product1 .pro .des .star, span, h5, h4 {
    display: flex;
    align-items: start;
+}
+
+#product1 .pro .des .star svg {
+   padding-bottom: 7px;
 }
 
 #product1 .pro .des h5{
@@ -229,7 +242,26 @@ h2{
    font-size: 14px;
 }
 
-#product1 .pro .des .star img {
-   color: #ac1c40;
-   padding-bottom: 7px;
+#product1 .pro .des h4{
+   padding-top: 7px;
+   font-weight: 700;
+   color: #013330;
+   font-size: 15px;
 }
+
+#product1 .pro .cart{
+   height: 30px;
+   width: 30px;
+   padding: 5px;
+   line-height: 40px;
+   border-radius: 10px;
+   background-color: #bfdac3;
+   font-weight: 500;
+   color: #088178;
+   border:1px solid #cce7d0;
+   position: absolute;
+   bottom: 20px;
+   right: 10px;
+}
+
+
