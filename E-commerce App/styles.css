@@ -191,10 +191,46 @@ h2{
    min-width: 250px;
    padding: 10px 16px;
    border: 1px solid #cce7d0;
+   border-radius: 25px;
+   cursor: pointer;
+   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.07);
+   margin: 15px 0;
+   transition: 0.4s ease;
 }
 
-#product1 .pro img{
+#product1 .pro:hover{
+   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+#product1 .item1{
    width: 100%;
    border-radius: 20px;
+}
+
+#product1 .pro .des{
+   align-items: start;
+   padding:10px 0;
+}
+
+#product1 .pro .des span{
+   color: #606063;
+   font-size: 13px;
+}
+
+#product1 .pro .des .star, span, h5, h4{
+   display: flex;
+   align-items: start;
+}
+
+#product1 .pro .des h5{
+   padding-top: 7px;
+   padding-bottom: 3px;
+   color: #1a1a1a;
+   font-size: 14px;
+}
+
+#product1 .pro .des .star img{
+   fill: #ac1c40;
+   padding-bottom: 7px;
 }
 
