@@ -193,7 +193,7 @@ h2{
    border: 1px solid #cce7d0;
    border-radius: 25px;
    cursor: pointer;
-   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.07);
+   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.09);
    margin: 15px 0;
    transition: 0.4s ease;
 }
@@ -229,8 +229,7 @@ h2{
    font-size: 14px;
 }
 
-#product1 .pro .des .star img{
-   fill: #ac1c40;
+#product1 .pro .des .star img {
+   color: #ac1c40;
    padding-bottom: 7px;
 }
-
