@@ -198,8 +198,3 @@ h2{
    border-radius: 20px;
 }
 
-#product1 .star img{
-   display: inline-block;
-   margin: 0 5px; /* Adjust the margins as needed for spacing between elements */
-   padding: 10px;
-}
