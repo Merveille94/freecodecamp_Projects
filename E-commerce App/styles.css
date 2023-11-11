@@ -34,10 +34,15 @@ h2{
     color: #465b52;
     margin: 15px 0 20px 0;
  }
-
+/* screen arrangement */
  .section-p1{
     padding: 40px 80px;
- }
+ }/*end */
+
+ /* just the feature section */
+ .section-f1{
+   padding: 40px 35px;
+}/* end */
 
  .section-m1{
     margin: 40px 0;
@@ -130,5 +135,71 @@ h2{
    font-size: 15px;
  }
 
-/* Feature section */
+ #hero button:hover{
+   color: rgb(255, 255, 255);
+   background-color: #088178;
+ }
 
+/* Feature section */
+#feature{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap:wrap;
+}
+
+#feature .fe-box{
+   width: 180px;
+   text-align: center;
+   padding: 25px 15px;
+   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+   border: 2px solid #0eb6ab;
+   border-radius: 4px;
+   margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+   box-shadow: 10px 10px 34px rgba(70, 62, 221, 0.4);
+}
+
+/* for responsiveness */
+#feature .fe-box img{
+   width: 100%;
+   margin-bottom: 10px;
+}/* end */
+
+#feature .fe-box h6{
+   padding: 8px 9px 6px 8px;
+   line-height: 1;
+   border-radius:4px;
+   color: rgb(240, 228, 188);
+   background-color: #ac1c40;
+}
+
+#feature .fe-box h6:hover{
+   color: rgb(255, 255, 255);
+   background-color: #088178;
+}
+
+/* the products section */
+#product1{
+   text-align: center;
+}
+
+#product1 .pro{
+   width: 23%;
+   min-width: 250px;
+   padding: 10px 12px;
+   border: 1px solid #cce7d0;
+}
+
+#product1 .pro img{
+   width: 100%;
+   border-radius: 20px;
+}
+
+#product1 .star img{
+   display: inline-block;
+   margin: 0 5px; /* Adjust the margins as needed for spacing between elements */
+   padding: 10px;
+}
