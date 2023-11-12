@@ -281,7 +281,26 @@ button.normal{
 #banner .normal:hover{
    color: rgb(255, 255, 255);
    background-color: #088178;
-}/*end */
+}
+
+button.white{
+   font-size: 13px;
+   font-weight: 600;
+   padding:14px 14px;
+   color: #fff;
+   background-color: transparent;
+   cursor: pointer;
+   border-radius: 2px;
+   border: 1px solid #fff;
+   outline: none;
+   transition: 0.2s;
+}
+
+#sm-banner .banner-box:hover button{
+   border: 1px solid #088178;
+   background-color: #088178;
+}
+/*end */
 
 
 /* banner */
@@ -330,8 +349,12 @@ button.normal{
    height: 50vh;
    background-position:center;
    background-size: cover;
-   border-radius: 20px;
+   border-radius: 10px;
    padding:30px;
+}
+
+#sm-banner .banner-box2{
+   background-image: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("icons/jordan-whitfield-faStDXKctu0-unsplash.jpg");
 }
 
 #sm-banner h4{
@@ -340,3 +363,15 @@ button.normal{
    font-weight:300;
 }
 
+#sm-banner h2{
+   color: #fff;
+   font-size: 28px;
+   font-weight:800;
+}
+
+#sm-banner span{
+   color: #fff;
+   font-size: 14px;
+   font-weight:500;
+   padding-bottom: 15px;
+}
