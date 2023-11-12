@@ -314,4 +314,29 @@ button.normal{
    padding: 10px 0;
 }
 
+#sm-banner{
+   display:flex;
+   justify-content:space-between;
+   flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   background-image: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("icons/dom-hill-nimElTcTNyY-unsplash.jpg");
+   min-width :540px;
+   height: 50vh;
+   background-position:center;
+   background-size: cover;
+   border-radius: 20px;
+   padding:30px;
+}
+
+#sm-banner h4{
+   color: #fff;
+   font-size: 20px;
+   font-weight:300;
+}
 
