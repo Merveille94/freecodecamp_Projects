@@ -354,7 +354,7 @@ button.white{
 }
 
 #sm-banner .banner-box2{
-   background-image: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("icons/jordan-whitfield-faStDXKctu0-unsplash.jpg");
+   background-image: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("icons/tamara-bellis-CuXt1N5SjlE-unsplash.jpg");
 }
 
 #sm-banner h4{
@@ -374,4 +374,46 @@ button.white{
    font-size: 14px;
    font-weight:500;
    padding-bottom: 15px;
+}
+
+#banner3{
+   display:flex;
+   justify-content:space-between;
+   flex-wrap: wrap;
+   padding: 0 80px;
+}
+
+#banner3 .banner-box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   background-image: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("icons/jordan-whitfield-faStDXKctu0-unsplash.jpg");
+   min-width :30%;
+   height: 30vh;
+   background-position:center;
+   background-size: cover;
+   padding:20px;
+   margin-bottom: 20px;
+   border-radius: 4px;
+}
+
+#banner3 .banner-box2{
+   background-image: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("icons/andrew-neel-HqtYwlY9dxs-unsplash.jpg");
+}
+
+#banner3 .banner-box3{
+   background-image: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("icons/tamara-bellis-LJqRUWr9V0w-unsplash.jpg");
+}
+
+#banner3 h2{
+   color: #fff;
+   font-weight: 900;
+   font-size: 22px;
+}
+
+#banner3 h3{
+   color: rgb(206, 71, 71);
+   font-weight: 800;
+   font-size: 15px;
 }
