@@ -417,3 +417,16 @@ button.white{
    font-weight: 800;
    font-size: 15px;
 }
+
+/* newsletter */
+#newsletter{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+   background-image: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("icons/mariia-shalabaieva-HyyHIYz_l0A-unsplash.jpg");
+   background-repeat: no-repeat;
+   background-position: 20% 30%;
+   background-color: #041e42;
+
+}
