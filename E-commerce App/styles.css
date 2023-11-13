@@ -34,6 +34,7 @@ h2{
     color: #465b52;
     margin: 15px 0 20px 0;
  }
+ 
 /* screen arrangement */
  .section-p1{
     padding: 40px 80px;
@@ -53,6 +54,7 @@ h2{
  }
 
  /* header of page */
+
  #header{
     display: flex;
     align-items: center;
@@ -103,6 +105,7 @@ h2{
  }
 
  /* home page*/
+
  #hero{
    background-image: url("images/freestocks-_3Q3tsJ01nc-unsplash.jpg");
    height:90vh;
@@ -141,6 +144,7 @@ h2{
  }
 
 /* Feature section */
+
 #feature{
    display: flex;
    align-items: center;
@@ -163,6 +167,7 @@ h2{
 }
 
 /* for responsiveness */
+
 #feature .fe-box img{
    width: 100%;
    margin-bottom: 10px;
@@ -183,6 +188,7 @@ h2{
 }
 
 /* the products section */
+
 #product1{
    text-align: center;
 }
@@ -265,6 +271,7 @@ h2{
 }
 
 /* button global aestatic */
+
 button.normal{
    font-size: 14px;
    font-weight: 600;
@@ -304,6 +311,7 @@ button.white{
 
 
 /* banner */
+
 #banner{
    display: flex;
    flex-direction: column;
@@ -419,14 +427,58 @@ button.white{
 }
 
 /* newsletter */
+
 #newsletter{
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
    align-items: center;
-   background-image: linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("icons/mariia-shalabaieva-HyyHIYz_l0A-unsplash.jpg");
+   background-image: url("icons/anastasiia-chepinska-NrAv5nwdIrw-unsplash.jpg");
    background-repeat: no-repeat;
    background-position: 20% 30%;
-   background-color: #041e42;
-
+   background-size: cover;
 }
+
+#newsletter .form{
+   display:flex;
+   width: 40%;
+}
+
+#newsletter h4{
+   font-size: 22px;
+   font-weight: 700;
+   color: #fff;
+}
+
+#newsletter p{
+   font-size: 14px;
+   font-weight: 600;
+   color: #9dacc0;
+}
+
+#newsletter p span{
+   display: inline-block;
+   color: #e2cd61;
+}
+
+#newsletter input{
+   height: 3.125rem;
+   font-size: 14px;
+   padding: 0 1.25em;
+   border-radius: 4px;
+   outline: none;
+   width: 100%;
+   border: 1px solid transparent;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+   background-color:#088178;
+   color:#fff;
+   white-space: nowrap;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+}
+
+/* footer */
