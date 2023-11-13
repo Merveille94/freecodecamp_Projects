@@ -34,7 +34,7 @@ h2{
     color: #465b52;
     margin: 15px 0 20px 0;
  }
- 
+
 /* screen arrangement */
  .section-p1{
     padding: 40px 80px;
@@ -121,6 +121,13 @@ h2{
 
  #hero h4{
    padding-bottom: 15px;
+ }
+
+ 
+ #hero p{
+   color:#a48aa8;
+   font-weight:bolder;
+   font-size: 15px;
  }
 
  #hero h1{
@@ -482,3 +489,73 @@ button.white{
 }
 
 /* footer */
+
+footer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+/* footer */
+
+footer .col{
+   display: flex;
+   flex-direction: column;
+   align-items:flex-start;
+   margin-bottom: 20px;
+}
+
+footer .logo{
+   margin-bottom: 30px;
+}
+
+footer h4{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p{
+   font-size: 13px;
+   margin: 0 0 8px 0;
+}
+
+ footer a{
+   font-size: 13px;
+   color:#222;
+   text-decoration:none;
+   margin-bottom: 10px;
+}
+
+ footer .follow{
+   margin-top: 20px;
+}
+
+ footer .follow svg{
+   color: #465b52;
+   padding-right: 4px;
+   cursor: pointer;
+}
+
+ footer .install .row img{
+   border: 1px solid #088178;
+   border-radius: 6px;
+}
+
+footer .install .row img:hover{
+   border: 1.4px solid #b12222;
+   cursor: pointer;
+}
+
+ footer .install img{
+   margin: 10 0 15px 0;
+}
+
+footer .follow svg:hover,
+footer a:hover{
+   color: #b12222;
+}
+
+footer .copyright{
+   width: 100%;
+   text-align: center;
+}
