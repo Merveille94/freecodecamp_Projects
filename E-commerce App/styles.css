@@ -677,9 +677,13 @@ footer .copyright{
    #banner3 .banner-box{
       width: 25%;
    }
-   
+
    #newsletter .form{
       width: 70%;
+   }
+
+   footer{
+      margin-right: 20px;
    }
 
 }
