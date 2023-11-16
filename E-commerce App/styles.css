@@ -616,6 +616,10 @@ footer .copyright {
   margin-top: 20px;
 }
 
+#prodetails .single-pro-image img{
+  border-radius: 10px;
+}
+
 #prodetails .single-pro-image{
   width: 40%;
   margin-right: 50px;
@@ -870,4 +874,21 @@ footer .copyright {
   #newsletter .form {
     width: 100%;
   }
+
+  /* Single page product */
+  
+  #prodetails{
+    display:flex;
+    flex-direction: column;
+  }
+
+  #prodetails .single-pro-image{
+    width: 100%;
+    margin-right: 0;
+  }
+
+  #prodetails .single-pro-details{
+    width: 100%;
+  }
+
 }
