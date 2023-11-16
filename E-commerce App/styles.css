@@ -707,6 +707,8 @@ footer .copyright {
   display: flex;
   align-items: center;
   width: 100%;
+  position: relative;
+  padding-bottom: 90px;
 }
 
 #blog .blog-img{
@@ -732,6 +734,7 @@ footer .copyright {
   position: relative;
   transition: 0.5s ease;
 }
+
 #blog .blog-details a::after{
   position: absolute;
   content: "";
@@ -745,6 +748,21 @@ footer .copyright {
 #blog .blog-details a:hover{
   color: #088178;
 }
+
+#blog .blog-details a:hover::after{
+  background-color: #088178;
+}
+
+#blog .blog-box h1{
+  position: absolute;
+  top:-45px;
+  left:0;
+  font-size: 70px;
+  font-weight:700;
+  color: #c9cbce;
+  z-index: -9;
+}
+
 
 
 /* About Page */
