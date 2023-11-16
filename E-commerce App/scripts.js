@@ -13,3 +13,7 @@ if (close) {
     nav.classList.remove("active");
   });
 }
+
+// Single product page 
+
+var MainImg = document.getElementById('MainImg')
