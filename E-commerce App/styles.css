@@ -681,6 +681,70 @@ footer .copyright {
 }
 
 /* Blog page  */
+#blog-header{
+  background-image: url('icons/lilly-rum-iyKVGRu79G4-unsplash.jpg');
+  width: 100%;
+  height:40vh;
+  background-position: center;
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#blog-header h2,
+#blog-header p{
+  color: #fff;
+}
+
+#blog{
+  padding: 100px 100px 0 100px;
+}
+
+#blog .blog-box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#blog .blog-img{
+  width: 70%;
+  margin-right: 10%;
+}
+
+#blog img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#blog .blog-details{
+  width: 50%;
+}
+
+#blog .blog-details a{
+  text-decoration: none;
+  font-size: 11px;
+  color:#000;
+  font-weight:700;
+  position: relative;
+}
+#blog .blog-details a::after{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #000;
+  top: 4px;
+  right: -60px;
+}
+
+#blog .blog-details a:hover{
+  color: #088178;
+}
+
 
 /* About Page */
 
