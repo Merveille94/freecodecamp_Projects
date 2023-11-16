@@ -606,11 +606,25 @@ footer .copyright {
 }
 
 #pagination svg{
-  color: #088178;
+  color: #222;
   padding: 2px;
 }
 
 /* Single Product */
+#prodetails .single-pro-image{
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
 
 /* Blog page  */
 
