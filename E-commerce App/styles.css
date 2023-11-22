@@ -779,6 +779,13 @@ footer .copyright {
   padding: 14px;
 }
 
+#about-header h2,
+#about-header p{
+  color: #fff;
+}
+
+
+
 /* contact page */
 
 /* Star Media query tablet first */
