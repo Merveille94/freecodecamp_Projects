@@ -579,12 +579,12 @@ footer .copyright {
 }
 
 /* shop page */
-#page-header{
-  background-image: url('icons/phil-desforges-cGJdXOBC9io-unsplash.jpg');
+#page-header {
+  background-image: url("icons/phil-desforges-cGJdXOBC9io-unsplash.jpg");
   width: 100%;
-  height:40vh;
+  height: 40vh;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -593,100 +593,100 @@ footer .copyright {
 }
 
 #page-header h2,
-#page-header p{
+#page-header p {
   color: #fff;
 }
 
-#pagination{
+#pagination {
   text-align: center;
 }
 
-#pagination a{
+#pagination a {
   text-decoration: none;
 }
 
-#pagination svg{
+#pagination svg {
   color: #222;
   padding: 2px;
 }
 
 /* Single Product */
-#prodetails{
+#prodetails {
   display: flex;
   margin-top: 20px;
 }
 
-#prodetails .single-pro-image img{
+#prodetails .single-pro-image img {
   border-radius: 10px;
 }
 
-#prodetails .single-pro-image{
+#prodetails .single-pro-image {
   width: 40%;
   margin-right: 50px;
 }
 
-.small-img-group{
+.small-img-group {
   display: flex;
   justify-content: space-between;
 }
 
-.small-img-col{
+.small-img-col {
   flex-basis: 24%;
   cursor: pointer;
 }
 
-#prodetails .single-pro-details{
+#prodetails .single-pro-details {
   width: 50%;
   padding-top: 30px;
 }
 
-#prodetails .single-pro-details h4{
+#prodetails .single-pro-details h4 {
   padding: 40px 0 20px 0;
 }
 
-#prodetails .single-pro-details h4{
+#prodetails .single-pro-details h4 {
   font-size: 26px;
 }
 
-#prodetails .single-pro-details select{
+#prodetails .single-pro-details select {
   display: block;
   padding: 5px 10px;
   margin-bottom: 10px;
 }
 
-#prodetails .single-pro-details select:focus{
+#prodetails .single-pro-details select:focus {
   outline: none;
 }
 
-#prodetails .single-pro-details input{
+#prodetails .single-pro-details input {
   width: 50px;
   height: 47px;
   padding-left: 10px;
   font-size: 16px;
-  margin-right:10px ;
+  margin-right: 10px;
 }
 
-#prodetails .single-pro-details input:focus{
+#prodetails .single-pro-details input:focus {
   outline: none;
 }
 
-#prodetails .single-pro-details button{
+#prodetails .single-pro-details button {
   background-color: #088178;
   color: #fff;
 }
 
-#prodetails .single-pro-details span{
+#prodetails .single-pro-details span {
   line-height: 25px;
   text-align: left;
 }
 
 /* Blog page  */
-#blog-header{
-  background-image: url('icons/lilly-rum-iyKVGRu79G4-unsplash.jpg');
+#blog-header {
+  background-image: url("icons/lilly-rum-iyKVGRu79G4-unsplash.jpg");
   width: 100%;
-  height:40vh;
+  height: 40vh;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -695,15 +695,15 @@ footer .copyright {
 }
 
 #blog-header h2,
-#blog-header p{
+#blog-header p {
   color: #fff;
 }
 
-#blog{
+#blog {
   padding: 100px 100px 0 100px;
 }
 
-#blog .blog-box{
+#blog .blog-box {
   display: flex;
   align-items: center;
   width: 100%;
@@ -711,31 +711,31 @@ footer .copyright {
   padding-bottom: 90px;
 }
 
-#blog .blog-img{
+#blog .blog-img {
   width: 70%;
   margin-right: 10%;
 }
 
-#blog img{
+#blog img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
 
-#blog .blog-details{
+#blog .blog-details {
   width: 50%;
 }
 
-#blog .blog-details a{
+#blog .blog-details a {
   text-decoration: none;
   font-size: 11px;
-  color:#000;
-  font-weight:700;
+  color: #000;
+  font-weight: 700;
   position: relative;
   transition: 0.5s ease;
 }
 
-#blog .blog-details a::after{
+#blog .blog-details a::after {
   position: absolute;
   content: "";
   width: 50px;
@@ -745,33 +745,31 @@ footer .copyright {
   right: -60px;
 }
 
-#blog .blog-details a:hover{
+#blog .blog-details a:hover {
   color: #088178;
 }
 
-#blog .blog-details a:hover::after{
+#blog .blog-details a:hover::after {
   background-color: #088178;
 }
 
-#blog .blog-box h1{
+#blog .blog-box h1 {
   position: absolute;
-  top:-50px;
-  left:0;
+  top: -50px;
+  left: 0;
   font-size: 70px;
-  font-weight:700;
+  font-weight: 700;
   color: #c9cbce;
   z-index: -9;
 }
 
-
-
 /* About Page */
-#about-header{
-  background-image: url('icons/tegan-mierle-ioyEITUD2G8-unsplash.jpg');
+#about-header {
+  background-image: url("icons/tegan-mierle-ioyEITUD2G8-unsplash.jpg");
   width: 100%;
-  height:40vh;
+  height: 40vh;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -780,13 +778,60 @@ footer .copyright {
 }
 
 #about-header h2,
-#about-header p{
+#about-header p {
   color: #fff;
 }
 
+#about-head {
+  display: flex;
+  align-items: center;
+}
 
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+
+#about-head div {
+  padding-left: 40px;
+}
+
+#about-app {
+  text-align: center;
+}
+
+#about-app .video {
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+}
+
+#about-app .video video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
 
 /* contact page */
+
+#contact-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.7)),
+    url("icons/thought-catalog-o0Qqw21-0NI-unsplash.jpg");
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#contact-header h2,
+#contact-header p {
+  color: #fff;
+}
 
 /* Star Media query tablet first */
 @media (max-width: 799px) {
@@ -978,41 +1023,60 @@ footer .copyright {
   }
 
   /* Single page product */
-  
-  #prodetails{
-    display:flex;
+
+  #prodetails {
+    display: flex;
     flex-direction: column;
   }
 
-  #prodetails .single-pro-image{
+  #prodetails .single-pro-image {
     width: 100%;
     margin-right: 0;
   }
 
-  #prodetails .single-pro-details{
+  #prodetails .single-pro-details {
     width: 100%;
   }
 
   /* blog page */
-  #blog{
+  #blog {
     padding: 100px 20px 0 20px;
   }
 
-  #blog .blog-box{
+  #blog .blog-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
 
-  #blog .blog-img{
+  #blog .blog-img {
     width: 100%;
     margin-right: 0;
     margin-bottom: 30px;
   }
 
-  #blog .blog-details{
+  #blog .blog-details {
     width: 100%;
   }
 
+  /* about page */
+  #about-head {
+    flex-direction: column;
+  }
 
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div {
+    padding-left: 0;
+  }
+  #about-head p {
+    text-align: justify;
+  }
+
+  #about-app .video {
+    width: 100%;
+  }
 }
