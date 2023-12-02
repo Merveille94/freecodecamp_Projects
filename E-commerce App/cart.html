@@ -31,7 +31,7 @@
           <li><a href="shop.html">Shop</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contact.html" class="active">Contacts</a></li>
+          <li><a href="contact.html">Contacts</a></li>
           <li>
             <a href="cart.html" class="active"
               ><img
@@ -52,9 +52,7 @@
               viewBox="0 0 16 16"
             >
               <path
-                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
-              /></svg
-          ></a>
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/></svg></a>
         </ul>
       </div>
 
@@ -84,11 +82,120 @@
     </section>
 
     <!-- Plane Section -->
-    <section id="contact-header">
-      <h2>#Let's_Talk</h2>
-      <p>LEAVE A MESSAGE. We'll love to hear from you!</p>
+    <section id="cart-header">
+      <h2>#Cart</h2>
+      <p>Add your coupon code & save up to 70%!</p>
     </section>
 
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>
+              <a href=""><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-x-lg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/></svg></a>
+              </a>
+           </td>
+           <td><img src="icons/Breathable Solid Color round Neck Short Sleeve Cotton T-Shirts.jpeg" alt="shrit"></td>
+           <td>Kelvin Clein T-shirt</td>
+           <td>$ 130.00</td>
+           <td><input type="number" value="1" min ="1"></td>
+           <td>$ 130.00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href=""><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-x-lg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/></svg></a>
+              </a>
+           </td>
+           <td><img src="icons/Men Solid Round Neck Tee (1).jpeg" alt="shrit"></td>
+           <td>Kelvin Clein shirt</td>
+           <td>$ 140.00</td>
+           <td><input type="number" value="1" min ="1"></td>
+           <td>$ 140.00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href=""><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-x-lg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/></svg></a>
+              </a>
+           </td>
+           <td><img src="icons/Men Solid Round Neck Tee.jpeg" alt="shrit"></td>
+           <td>Shirt K Clein T-shirt</td>
+           <td>$ 120.00</td>
+           <td><input type="number" value="1" min="1"></td>
+           <td>$ 120.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply your coupon</h3>
+        <div>
+          <input type="text" name="" placeholder="Enter your coupon">
+          <button class="normal">Submit</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart totals</h3>
+        <table>
+          <tr>
+            <td>Cart subtotal </td>
+            <td>$330.00 </td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>total</strong></td>
+            <td><strong>$ 330.00</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+    
     <!-- Newsletter -->
     <section id="newsletter" class="section-p1 section-m1">
       <div class="newstext">
