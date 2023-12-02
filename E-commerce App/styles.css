@@ -833,6 +833,57 @@ footer .copyright {
   color: #fff;
 }
 
+#contact-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact-details .details {
+  width: 40%;
+}
+
+#contact-details .details span {
+  font-size: 12px;
+}
+
+#contact-details .details h2 {
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+#contact-details .details h3 {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+#contact-details .details li {
+  list-style: none;
+  display: flex;
+  padding: 10px 0px;
+}
+
+#contact-details .details li svg {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+#contact-details .details li p {
+  font-size: 14px;
+  margin: 0;
+}
+
+#contact-details .map {
+  width: 55%;
+  height: 400px;
+}
+
+#contact-details .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
 /* Star Media query tablet first */
 @media (max-width: 799px) {
   .section-p1 {
