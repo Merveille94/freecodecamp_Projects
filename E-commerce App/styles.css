@@ -881,6 +881,14 @@ footer .copyright {
   height: 400px;
 }
 
+#form-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid #e1e1e1;
+}
+
 #contact-details .map iframe {
   width: 100%;
   height: 100%;
